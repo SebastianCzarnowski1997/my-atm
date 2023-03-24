@@ -132,7 +132,7 @@ public class ATM {
 						.println("Wrong login or PIN. Please try again. You have left with: " + attempts + " attempts");
 			} else {
 				System.out.println("Hi " + userWithAccess.getName());
-				break;
+//				break;
 			}
 		}
 		loginAccount(bank, sc, userWithAccess);
